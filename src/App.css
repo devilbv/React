@@ -1,0 +1,70 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.phoneApp {   
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem auto;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  min-height: 700px;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: #659eb1;
+}
+
+.phoneApp form  {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.phoneApp form input {
+  padding: .5rem;
+  margin: .5em auto;
+  width: 300px;
+}
+table {margin: 0 auto;}
+.listResult{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  list-style: none;
+  border: 1px solid #000000;
+  width: 100%;
+}
+.listResult li {
+  padding: .5em;
+  
+}
+.button1 {
+ 
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #cedeec;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  
+  
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
